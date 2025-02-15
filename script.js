@@ -43,3 +43,8 @@ document.getElementById('loveLogo').addEventListener('click', function(event) {
         loveEffect.remove();
     }, 1000);
 });
+document.getElementById("loveLogo").addEventListener("click", function() {
+    const video = document.getElementById("loveVideo");
+    video.style.display = "block"; // Tampilkan video
+    video.play(); // Mulai memutar video
+});
